@@ -80,12 +80,16 @@ h1{
 
     }
     #header, #menu li{
-        width: 100%;
         text-align: center;
         flex-direction: column;
         height: auto;
         overflow: hidden;
         justify-content: center;
         align-items: center;
+    }
+    @media (max-width: 290px){
+        #header, #menu li{
+            width: 100%;
+        }
     }
 }
