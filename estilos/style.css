@@ -45,6 +45,9 @@ h1{
     color: white;
     padding: 10px;
 }
+#menu a:hover{
+    border-bottom: 2px solid white;
+}
 
                     /* Flex1 */
 
